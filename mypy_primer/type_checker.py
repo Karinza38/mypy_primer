@@ -104,4 +104,4 @@ async def setup_typeshed(parent_dir: Path, *, repo: str, revision_like: Revision
     if parent_dir.exists():
         shutil.rmtree(parent_dir)
     parent_dir.mkdir(exist_ok=True)
-    return await ensure_repo_at_revision(repo, parent_dir, revision_like)
+    return await ensure_repo_at_revision(repo, parent_dir, revision_like) 
