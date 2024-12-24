@@ -1,4 +1,4 @@
-# mypy_primer
+mypy_primer
 
 mypy_primer is a tool for regression testing Python static type checkers.
 
